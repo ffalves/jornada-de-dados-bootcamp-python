@@ -1,17 +1,20 @@
 [tool.poetry]
 name = "bootcamp-python"
 version = "0.1.0"
-description = ""
+description = "This project is a study initiative aimed at developing python programming skills from scratch. The project is part of practical exercises from Bootcamp de Python from Jornada de Dados platform."
 authors = ["Fefe Alves <monitore.falves@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.13"
 
-
 [tool.poetry.group.dev.dependencies]
-notebook = "^7.2.2"
+notebook = "^7.2.2"      # Jupyter Notebooks for list of exercises
+black = "^23.0"           # Tool to improve code format
+flake8 = "^6.0.0"         # Linter to verify the code quality
+pytest = "^7.3.1"         # Framework for automated tests
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
