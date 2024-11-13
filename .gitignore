@@ -1,2 +1,12 @@
 .venv/
+.vscode/
 tests/
+
+# Python cache
+_pycache__/
+*.py[cod]
+
+# Temp files and System files
+*.log
+*.tmp 
+.DS_Store
